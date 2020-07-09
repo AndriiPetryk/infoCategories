@@ -1,0 +1,14 @@
+@import 'enums/styleVariables';
+
+.locationsWrap {
+  width: 272px;
+  height: 40px;
+  background: $offWhite;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.selectFilter {
+  width: 272px;
+  margin: 0 12px 0 0;
+}

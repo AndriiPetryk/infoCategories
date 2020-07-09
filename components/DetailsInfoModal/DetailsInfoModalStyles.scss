@@ -1,0 +1,27 @@
+.modalStyle {
+  position: fixed;
+  top: 20%;
+  left: calc(54% - 300px);
+  width: 600px !important;
+}
+.modalBodyWrap {
+  padding: 0;
+}
+
+.holder {
+  border-radius: 8px 8px 0 0;
+}
+
+.detailsHolder {
+  max-height: 195px;
+  overflow-y: auto;
+}
+
+.carouselHolder {
+  overflow: hidden;
+  min-height: 376px;
+}
+
+.infoPicture {
+  height: 376px;
+}

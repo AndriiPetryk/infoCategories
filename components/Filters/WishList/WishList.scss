@@ -1,0 +1,34 @@
+@import 'enums/styleVariables.scss';
+
+.wishListCounter {
+  display: flex;
+  align-items: center;
+  & > a {
+    color: $greyPrimary;
+  }
+}
+
+.holder {
+  line-height: 32px;
+  max-height: 32px;
+  margin-left: 10px;
+}
+
+.holder:before {
+  width: 32px;
+  height: 32px;
+}
+
+.holder:hover {
+  transform: scale(1);
+}
+
+.wishlistText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.withoutTotal:before {
+  animation: heart-bump 0.8s 1;
+  opacity: 1;
+}

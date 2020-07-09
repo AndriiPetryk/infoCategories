@@ -1,0 +1,17 @@
+@import 'enums/styleVariables';
+
+.categoriesWrap {
+  width: 224px;
+  height: 40px;
+  background: $offWhite;
+  border-radius: 8px;
+  margin-right: 24px;
+}
+
+.selectFilter {
+  width: 224px;
+  margin: 0 12px 0 0;
+}
+.multiValue {
+  display: none;
+}
